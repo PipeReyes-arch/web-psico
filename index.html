@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mentemorfosia Psicología | Bogotá</title>
+  <meta name="description" content="Centro de psicología clínica en Bogotá. Terapia individual, de pareja, familiar y grupal, presencial y virtual.">
+
+  <!-- Tipografías (Google Fonts) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+
+  <!-- Icono de la pestaña -->
+  <link rel="icon" id="favicon" href="img/logomente.png" type="image/png">
+
+  <!-- Nuestra hoja de estilos -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ============ NAVBAR ============ -->
+  <nav id="navbar" class="navbar">
+    <div class="navbar__container">
+      <a href="#inicio" class="navbar__brand">
+        <img src="img/logomente.png" alt="Mentemorfosia Logo" class="petal-logo petal-logo--small">
+        <span class="navbar__title">Mentemorfosia</span>
+      </a>
+
+      <div class="navbar__links" id="navLinks">
+        <a href="#quienes-somos">Quiénes Somos</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contacto">Contacto</a>
+        <a href="#citas" class="navbar__cta navbar__cta--mobile">Agendar cita</a>
+      </div>
+
+      <div class="navbar__actions">
+        <button id="themeToggle" class="icon-btn" aria-label="Cambiar tema claro/oscuro" title="Cambiar tema">
+          <!-- luna -->
+          <svg id="iconMoon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+          <!-- sol (oculto por defecto) -->
+          <svg id="iconSun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="display:none"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+        </button>
+
+        <a href="#citas" class="navbar__cta">Agendar cita</a>
+
+        <button id="menuToggle" class="icon-btn navbar__burger" aria-label="Abrir menú">
+          <svg id="iconMenu" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+          <svg id="iconClose" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" style="display:none"><path d="M6 6l12 12M18 6L6 18"/></svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section id="inicio" class="hero">
+      <div class="hero__blobs" aria-hidden="true">
+        <div class="blob blob--1"></div>
+        <div class="blob blob--2"></div>
+        <div class="blob blob--3"></div>
+      </div>
+
+      <div class="hero__content">
+        <img src="img/logomente.png" alt="Mentemorfosia Logo" class="petal-logo petal-logo--big">
+
+        <div class="hero__card">
+          <span class="eyebrow">Psicología Clínica</span>
+          <h1 class="hero__title">
+            Transformando pensamientos,
+            <em>sanando emociones.</em>
+          </h1>
+          <p class="hero__subtitle">
+            Un espacio seguro, cálido y profesional en Bogotá para acompañarte en tu proceso de bienestar mental y emocional.
+          </p>
+          <div class="hero__buttons">
+            <a href="#citas" class="btn btn--primary">Agendar cita</a>
+            <a href="#servicios" class="btn btn--outline">Conocer más</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__scroll">
+        <span class="hero__scroll-line"></span>
+        <span>Scroll</span>
+      </div>
+    </section>
+
+    <!-- ============ QUIÉNES SOMOS ============ -->
+    <section id="quienes-somos" class="section about">
+      <div class="about__grid">
+        <div class="about__image-wrap reveal">
+          <div class="about__image"></div>
+          <div class="about__badge">
+            <span class="about__badge-year">2025</span>
+            <span class="about__badge-label">Fundación</span>
+          </div>
+        </div>
+
+        <div class="reveal">
+          <span class="eyebrow eyebrow--pill">Quiénes Somos</span>
+          <h2 class="section__title">Mentemorfosia <em>Psicología</em></h2>
+          <div class="about__text">
+            <p>Somos un centro especializado en psicología clínica fundado en febrero de 2025 en la ciudad de Bogotá. Nacemos con el propósito de crear un espacio seguro donde el bienestar emocional es la prioridad.</p>
+            <p>Nuestro equipo de profesionales altamente calificados trabaja bajo enfoques basados en evidencia, brindando acompañamiento genuino y humano a cada uno de nuestros consultantes.</p>
+          </div>
+            <div class="stat">
+              <span class="stat__number">3</span>
+              <span class="stat__label">Profesionales</span>
+            </div>
+            <div class="stat">
+              <span class="stat__number">100<span class="stat__plus">%</span></span>
+              <span class="stat__label">Compromiso</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MISIÓN Y VISIÓN ============ -->
+    <section id="mision" class="section mission">
+      <div class="mission__grid">
+        <div class="glass-card reveal">
+          <h3 class="card__title">Nuestra Misión</h3>
+          <p>Brindar atención psicológica integral, ética y humana que promueva la salud mental, el autoconocimiento y el bienestar emocional de nuestros consultantes.</p>
+          <p>Nos dedicamos a facilitar procesos de transformación personal a través de herramientas basadas en la evidencia científica.</p>
+          <p class="mission__quote">"Acompañar cada paso hacia una mente más serena y una vida más plena."</p>
+        </div>
+
+        <div class="glass-card reveal">
+          <h3 class="card__title">Nuestra Visión</h3>
+          <p>Convertirnos en el centro psicológico de referencia en Bogotá y a nivel virtual, reconocidos por nuestra calidez, innovación terapéutica y resultados transformadores.</p>
+
+          <ul class="timeline">
+            <li class="timeline__item">
+              <strong>Corto Plazo</strong>
+              <span>Consolidar nuestro equipo clínico en Bogotá.</span>
+            </li>
+            <li class="timeline__item">
+              <strong>Mediano Plazo</strong>
+              <span>Expandir programas grupales y escuelas de padres.</span>
+            </li>
+            <li class="timeline__item timeline__item--last">
+              <strong>Largo Plazo</strong>
+              <span>Ser un referente iberoamericano en salud mental integral.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICIOS ============ -->
+    <section id="servicios" class="section services">
+      <div class="section__header">
+        <span class="eyebrow eyebrow--pill">Modalidades</span>
+        <h2 class="section__title">Nuestros <em>Servicios</em></h2>
+        <p class="section__lead">Ofrecemos atención adaptada a tus necesidades, tanto en nuestro consultorio en Bogotá como en modalidad virtual.</p>
+      </div>
+
+      <div class="services__grid">
+        <div class="service-card service-card--featured reveal">
+          <span class="badge">DESTACADO</span>
+          <h3 class="card__title">Atención Presencial</h3>
+          <p>En nuestro acogedor consultorio en Bogotá. Un espacio diseñado para tu confort y privacidad.</p>
+          <ul class="service-list"></ul>
+          <a href="#citas" class="btn btn--ghost">Agendar Presencial</a>
+        </div>
+
+        <div class="service-card reveal">
+          <h3 class="card__title">Atención Virtual</h3>
+          <p>Terapia desde la comodidad de tu hogar, con la misma calidad y compromiso profesional.</p>
+          <ul class="service-list"></ul>
+          <a href="#citas" class="btn btn--ghost">Agendar Virtual</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ VALORES ============ -->
+    <section id="valores" class="section values">
+      <div class="section__header">
+        <h2 class="section__title">Nuestros Valores</h2>
+      </div>
+      <div class="values__grid" id="valuesGrid"></div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section id="faq" class="section faq">
+      <div class="section__header">
+        <span class="eyebrow eyebrow--pill">Dudas Comunes</span>
+        <h2 class="section__title">Preguntas <em>Frecuentes</em></h2>
+      </div>
+      <div class="accordion" id="accordion"></div>
+    </section>
+
+    <!-- ============ TESTIMONIOS ============ -->
+    <section id="testimonios" class="section testimonials">
+      <div class="section__header">
+        <h2 class="section__title">Historias de <em>Transformación</em></h2>
+      </div>
+      <div class="testimonials__grid" id="testimonialsGrid"></div>
+    </section>
+
+    <!-- ============ BLOG ============ -->
+    <section id="blog" class="section blog">
+      <div class="section__header">
+        <span class="eyebrow eyebrow--pill">Recursos</span>
+        <h2 class="section__title">Blog & <em>Reflexiones</em></h2>
+      </div>
+      <div class="blog__grid" id="blogGrid"></div>
+    </section>
+
+    <!-- ============ AGENDAR CITA ============ -->
+    <section id="citas" class="section appointment">
+      <div class="section__header">
+        <h2 class="section__title">Comienza tu <em>Proceso</em></h2>
+        <p class="section__lead">Agendar tu primera cita es el paso más valiente. Completa el formulario y te contactaremos a la brevedad.</p>
+      </div>
+
+      <div class="glass-card glass-card--solid appointment__card reveal">
+        <form id="appointmentForm" novalidate>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="apNombre">Nombre completo</label>
+              <input type="text" id="apNombre" name="nombre" placeholder="Tu nombre">
+              <span class="form-error" data-error-for="apNombre"></span>
+            </div>
+            <div class="form-field">
+              <label for="apEmail">Correo electrónico</label>
+              <input type="email" id="apEmail" name="email" placeholder="tu@correo.com">
+              <span class="form-error" data-error-for="apEmail"></span>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-field">
+              <label for="apTelefono">Teléfono de contacto</label>
+              <input type="tel" id="apTelefono" name="telefono" placeholder="Tu teléfono">
+              <span class="form-error" data-error-for="apTelefono"></span>
+            </div>
+            <div class="form-field">
+              <label for="apServicio">Servicio</label>
+              <select id="apServicio" name="servicio">
+                <option value="">Selecciona un servicio</option>
+                <option value="Terapia Individual">Terapia Individual</option>
+                <option value="Terapia de Pareja">Terapia de Pareja</option>
+                <option value="Terapia Familiar">Terapia Familiar</option>
+                <option value="Orientación Psicológica">Orientación Psicológica</option>
+              </select>
+              <span class="form-error" data-error-for="apServicio"></span>
+            </div>
+          </div>
+
+          <div class="form-field">
+            <label>Modalidad</label>
+            <div class="radio-group">
+              <label class="radio-option">
+                <input type="radio" name="modalidad" value="presencial" checked>
+                Presencial (Bogotá)
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="modalidad" value="virtual">
+                Virtual
+              </label>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-field">
+              <label for="apFecha">Fecha preferida</label>
+              <input type="date" id="apFecha" name="fecha">
+              <span class="form-error" data-error-for="apFecha"></span>
+            </div>
+            <div class="form-field">
+              <label for="apHora">Hora preferida</label>
+              <input type="time" id="apHora" name="hora">
+              <span class="form-error" data-error-for="apHora"></span>
+            </div>
+          </div>
+
+          <div class="form-field">
+            <label for="apMensaje">Mensaje (Opcional)</label>
+            <textarea id="apMensaje" name="mensaje" rows="4" placeholder="Cuéntanos un poco sobre el motivo de tu consulta..."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn--primary btn--block">Solicitar Cita</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- ============ CONTACTO ============ -->
+    <section id="contacto" class="section contact">
+      <div class="contact__grid">
+        <div class="reveal">
+          <span class="eyebrow eyebrow--pill">Contacto</span>
+          <h2 class="section__title">Escríbenos</h2>
+          <p class="contact__lead">Estamos aquí para resolver tus dudas. Si tienes preguntas sobre nuestros servicios, tarifas o disponibilidad, déjanos un mensaje.</p>
+
+          <div class="contact__info">
+            <div class="contact__info-item">
+              <span class="contact__info-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+              </span>
+              <div>
+                <strong>Correo Electrónico</strong>
+                <a href="mailto:cvelandia066@gmail.com">cvelandia066@gmail.com</a>
+              </div>
+            </div>
+            <div class="contact__info-item">
+              <span class="contact__info-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+              </span>
+              <div>
+                <strong>Ubicación</strong>
+                <span>Bogotá, Colombia<br>Atención Presencial y Virtual</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="reveal">
+          <form id="contactForm" novalidate>
+            <div class="form-row">
+              <div class="form-field">
+                <input type="text" id="coNombre" name="nombre" placeholder="Tu nombre">
+                <span class="form-error" data-error-for="coNombre"></span>
+              </div>
+              <div class="form-field">
+                <input type="email" id="coEmail" name="email" placeholder="Tu correo">
+                <span class="form-error" data-error-for="coEmail"></span>
+              </div>
+            </div>
+            <div class="form-field">
+              <input type="text" id="coAsunto" name="asunto" placeholder="Asunto">
+              <span class="form-error" data-error-for="coAsunto"></span>
+            </div>
+            <div class="form-field">
+              <textarea id="coMensaje" name="mensaje" rows="5" placeholder="Mensaje"></textarea>
+              <span class="form-error" data-error-for="coMensaje"></span>
+            </div>
+            <button type="submit" class="btn btn--primary btn--block">Enviar Mensaje</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="footer__grid">
+      <div>
+        <a href="#inicio" class="navbar__brand">
+          <img src="img/logomente.png" alt="Mentemorfosia Logo" class="petal-logo petal-logo--small">
+          <span class="navbar__title">Mentemorfosia</span>
+        </a>
+        <p class="footer__desc">Transformando pensamientos, sanando emociones. Un espacio seguro y profesional para tu bienestar mental.</p>
+      </div>
+
+      <div>
+        <h4 class="footer__heading">Navegación</h4>
+        <ul class="footer__list">
+          <li><a href="#quienes-somos">Quiénes Somos</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#testimonios">Testimonios</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="footer__heading">Contacto</h4>
+        <ul class="footer__list">
+          <li>Bogotá, Colombia</li>
+          <li>Atención Presencial y Virtual</li>
+          <li><a href="mailto:cvelandia066@gmail.com">cvelandia066@gmail.com</a></li>
+        </ul>
+        <div class="footer__social">
+          <a href="https://www.instagram.com/mentemorfosia.psico?igsh=OHBrYzFkbHVvdHBx" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+          </a>
+          <a href="https://www.facebook.com/share/19Bf5z9DNE/" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          </a>
+          <a href="https://www.tiktok.com/@mentemorfosia?_r=1&_t=ZS-97nJ6Qq935M" aria-label="TikTok" target="_blank" rel="noopener noreferrer">
+            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.1 1.75 2.9 2.9 0 0 1 2.31-4.64 2.9 2.9 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1.04-.1z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p>&copy; 2025 Mentemorfosia Psicología. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Notificación tipo "toast" para confirmar el envío de formularios -->
+  <div id="toast" class="toast" role="status" aria-live="polite">
+    <strong id="toastTitle"></strong>
+    <p id="toastDesc"></p>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
